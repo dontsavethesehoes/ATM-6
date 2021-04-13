@@ -276,7 +276,7 @@ events.listen('recipes', function(e) {
         'rmr',
         'ara'
     ], {
-        'a': '#forge:nuggets/allthemodium',
+        'a': '#forge:nuggets',
         'e': '#forge:ender_pearls',
         'r': '#forge:storage_blocks/redstone',
         'm': 'rftoolsbase:machine_frame'
@@ -317,7 +317,7 @@ events.listen('recipes', function(e) {
         'L': '#forge:storage_blocks/lapis',
         'R': '#forge:storage_blocks/redstone',
         'D': '#forge:gems/diamond',
-        'A': '#forge:nuggets/allthemodium',
+        'A': 'minecraft:diamond',
         'G': 'minecraft:glass_pane'
     }).id(`kubejs:mininggadgets_upgrade`)
     e.shaped('mysticalagriculture:unattuned_augment', [
@@ -327,7 +327,7 @@ events.listen('recipes', function(e) {
     ], {
         'P': 'mysticalagriculture:prosperity_ingot',
         'M': 'botania:manasteel_ingot',
-        'A': '#forge:nuggets/allthemodium'
+        'A': 'minecraft:diamond'
     }).id(`kubejs:unattuned_augment`)
     e.shaped('mekanism:digital_miner', [
         'AUA',
@@ -349,7 +349,7 @@ events.listen('recipes', function(e) {
         'E': 'mekanism:energy_tablet',
         'R': '#mekanism:alloys/reinforced',
         'U': '#forge:circuits/ultimate',
-        'V': '#forge:ingots/vibranium'
+        'V': 'minecraft:nether_star'
     }).id(`kubejs:atomic_disassembler`)
     e.shaped('mekanismgenerators:wind_generator', [
         ' O ',
